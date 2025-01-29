@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC_ATELIER | About_US</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link  href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html "><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <div class="container-1">
+        <h1 class="title-1">About Us</h1>
+        <div class="orange-bar"></div>    
+        <div class="content-1">    
+            <div class="left-column">   
+                <p>Welcome to JC Atelier! We are dedicated to providing you with high-quality products at great value. 
+                    Our mission is to create a seamless shopping experience that makes you feel welcome and valued. Whether you're looking for the latest trends or timeless classics, our carefully curated selection ensures that you'll find exactly what you need. 
+                    We believe that shopping should be enjoyable, 
+                    and we strive to make every visit to JC Atelier a delightful experience.</p> 
+                <a href="#" class="read-more">Read More</a> 
+            </div>
+            <div class="right-column"> 
+                <img src="images/logo.png">  
+            </div>    
+        </div>  
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-linkedin'></i></a> 
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+    
+    </div>
+    <!--------footer-------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" >
+                        <img src="images/app-store.png" >
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Discover timeless fashion with JC Atelier. We blend simplicity and elegance to create high-quality,
+                         stylish apparel that lets you express yourself effortlessly. Stay bold, stay unique!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2025 -JOC</p>
+        </div>
+    </div>
+    <!-- -----js for toggle menu------->
+     <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+     </script>
+</body>
+</html>
