@@ -10,7 +10,7 @@ It includes essential storefront pages such as product listing, product details,
 ## 📸 Screenshot
 
 Add a preview screenshot here:
-![JC_ATELIER Screenshot](/images/demo ss.jpeg)
+![JC_ATELIER Screenshot](./images/demo ss.jpeg)
 
 ---
 
